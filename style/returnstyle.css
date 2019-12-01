@@ -1,0 +1,114 @@
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+    background-image: url(../image/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+
+.menu{
+    position: relative;
+    top: 20px;
+    left: 25%;
+    width: auto;
+}
+.menu div a{
+    font-family: 'Calistoga', cursive;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px darkblue solid;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+    background-color: #1ABC9C;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.menu div a:hover{
+    background-color:#16A085;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 130%;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Calistoga', cursive;
+    font-size: 280%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: #0481BF;
+    top: 60px;
+}
+.nhap{
+    position: relative;
+    font-family: 'Calistoga', cursive;
+    left: 25%;
+    width: 670px;
+    height: 180px;
+    padding-top: 10px;
+    border: gray 1px solid;
+    border-radius: 8px;
+    top: 90px;
+    float: left;
+    background-color: #ddd;
+}
+
+.onhap{
+    width: 250px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: hidden;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 120%;
+    /* background-color: #0481BF; */
+}
+.osubmit{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    border: hidden;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 120%;
+    background-color: #0481BF;
+}
+.bang{
+    position: relative;
+    top: 145px;
+    left: 5%;
+    width: 1200px;
+    height: auto;
+    /* border-radius: 5px; */
+    border-collapse: collapse;
+    color: #0000FF;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    /* border: 1px gray solid; */
+}
+th {
+    background-color: #FF0000;
+    color: white;
+    width: 80px;
+    text-align: center;
+    border: solid 1px gray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}

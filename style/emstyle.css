@@ -1,0 +1,164 @@
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    background-image: url(../image/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+.menu{
+    position: fixed;
+    top: 30px;
+    left: 30%;
+    width: auto;
+    height: 60px;
+}
+.menu div{
+    float: left;
+}
+.menu div a{
+    font-family: 'Calistoga', cursive;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px darkblue solid;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+    background-color: #1ABC9C;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.menu div a:hover{
+    background-color:#16A085;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 130%;
+}
+
+.multimana{
+    position: relative;
+    top: 70px;
+    left: 20%;
+    width: 990px;
+    height: 60px;
+}
+
+.multimana div a{
+    font-family: 'Calistoga', cursive;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px darkblue solid;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+    background-color: rgb(26, 142, 188);
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+.multimana div a:hover{
+    background-color:#0000FF;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 110%;
+}
+.contents{
+	position: relative;
+	top: 60px;
+	height: auto;
+	margin-bottom: 10px;
+    color: black;
+    display: none;
+    /* border: #0000FF 1px solid; */
+}
+#customer{
+    display: block;
+}
+h1{
+    font-family: 'Calistoga', cursive;
+    font-size: 220%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: #0481BF;
+}
+
+.nhap{
+    font-family: 'Calistoga', cursive;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    min-width: 500px;
+    max-width: 880px;
+    /* height: 180px; */
+    border: gray 1px solid;
+    border-radius: 8px;
+    /* top: 80px; */
+    float: left;
+    background-color: #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.onhap{
+    width: 250px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: hidden;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 120%;
+    /* background-color: #0481BF; */
+}
+.osubmit{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 4px;
+    border: hidden;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 120%;
+    background-color: #0481BF;
+}
+.bang{
+    margin-left: 5%;
+    width: 1200px;
+    height: auto;
+    border-radius: 5px;
+    border-collapse: collapse;
+    color: #0000FF;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    border: 1px gray solid;
+}
+th {
+padding-left: 5px;
+background-color: #FF0000;
+color: white;
+}
+tr{
+    background: #ddd;
+}
+tr:nth-child(even) {background-color: white}
+form{
+    font-size: 20px;
+}
+a:hover {
+    background-color:orange;
+}	
+a {
+    text-decoration: none;
+}
